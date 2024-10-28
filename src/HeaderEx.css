@@ -1,0 +1,32 @@
+.header1{
+    border-bottom: 1px solid #05a039;
+}
+.card95{
+  overflow-y: hidden;
+}
+@media(min-width:0px) and (max-width:1000px){
+  .card95{
+      overflow-x: auto;
+  }
+}
+.categories2{
+    border: 5px 5px 5px 5px white;
+    border-radius: 5%;
+}
+.categories2:hover{
+    border-color: #95ebb1;
+    box-shadow: 1px 1px 5px 1px #95ebb1;
+}
+.servimg{
+    padding: 20px 10px;
+    border-radius: 50%;
+}
+.sign{
+    font-size: 10px;
+}
+.feat{
+    text-align: left;
+}
+.feat1{
+    font-weight: 800;
+}

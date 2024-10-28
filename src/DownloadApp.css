@@ -1,0 +1,21 @@
+.middle{
+    font-size: 24px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bn45 {
+    width: 170px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.bn46 {
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }

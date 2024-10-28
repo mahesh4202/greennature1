@@ -1,0 +1,59 @@
+.input-container49 {
+    display: flex;
+    background: white;
+    border-radius: 1rem;
+    background: linear-gradient(45deg, #ffffff 0%, #ffffff 100%);
+    padding: 0.3rem;
+    gap: 0.3rem;
+  }
+  
+  .input-container49 input {
+    border-radius: 0.8rem 0 0 0.8rem;
+    background: #e8e8e8;
+    width: 100%;
+    flex-basis: 75%;
+    padding: 1rem;
+    border: none;
+    border-left: 2px solid #05A039;
+    color: #5e5e5e;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input-container49 input:focus {
+    border-left: 2px solid #05A039;
+    outline: none;
+    box-shadow: inset 13px 13px 10px #8effb4,inset -13px -13px 10px #f4f4f4;
+  }
+  
+  .input-container49 button {
+    flex-basis: 25%;
+    padding: 1rem;
+    background: linear-gradient(135deg, #5dff93 0%, #05A039 100%);
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 0 1rem 1rem 0;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input-container49 button:hover {
+    background: linear-gradient(135deg, #05A039 0%, #05A039c4 100%);
+  }
+  
+  @media (max-width: 500px) {
+    .input-container49 {
+      flex-direction: column;
+    }
+  
+    .input-container49 input {
+      border-radius: 0.8rem;
+    }
+  
+    .input-container49 button {
+      padding: 1rem;
+      border-radius: 0.8rem;
+    }
+  }
