@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/greennature1/static/css/main.73d22b4c.css",
+    "main.js": "/greennature1/static/js/main.de1a67fb.js",
+    "static/js/453.3ea33e5f.chunk.js": "/greennature1/static/js/453.3ea33e5f.chunk.js",
+    "static/media/Carousell1.jpeg": "/greennature1/static/media/Carousell1.0d7e260448e1bc6e1e09.jpeg",
+    "static/media/Carousell2.jpeg": "/greennature1/static/media/Carousell2.98a1bcaa2699182f171a.jpeg",
+    "static/media/Carousell3.jpeg": "/greennature1/static/media/Carousell3.fea98475279980b8cc01.jpeg",
+    "static/media/Logo.png": "/greennature1/static/media/Logo.081f334fcb627e4a57e0.png",
+    "static/media/Serv3.webp": "/greennature1/static/media/Serv3.95d69445593fc2018cc3.webp",
+    "static/media/Serv2.webp": "/greennature1/static/media/Serv2.4444988262e71074cfbe.webp",
+    "static/media/Serv1.webp": "/greennature1/static/media/Serv1.7b48447e25a108a69fa6.webp",
+    "static/media/Feat1.jpg": "/greennature1/static/media/Feat1.87c31b877f34c3172a6b.jpg",
+    "static/media/Feat3.jpg": "/greennature1/static/media/Feat3.53169985e61824d7d35a.jpg",
+    "static/media/Feat5.jpg": "/greennature1/static/media/Feat5.c12e8161799c055e1e09.jpg",
+    "static/media/Serv4.webp": "/greennature1/static/media/Serv4.8f258d231131f5ef5f7e.webp",
+    "static/media/Feat4.jpg": "/greennature1/static/media/Feat4.8cf6cac200263f105b37.jpg",
+    "static/media/Cat1.webp": "/greennature1/static/media/Cat1.1e2cb71348fd8c9f2a31.webp",
+    "static/media/Cat2.webp": "/greennature1/static/media/Cat2.d8fbd8e94108aa662e65.webp",
+    "static/media/Cat4.webp": "/greennature1/static/media/Cat4.d742da1a01431a637dbb.webp",
+    "static/media/Feat2.jpg": "/greennature1/static/media/Feat2.1930502e19f80e17ce3a.jpg",
+    "static/media/Cat3.webp": "/greennature1/static/media/Cat3.9981d0bf76ea08f1677e.webp",
+    "static/media/logo.svg": "/greennature1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/greennature1/index.html",
+    "main.73d22b4c.css.map": "/greennature1/static/css/main.73d22b4c.css.map",
+    "main.de1a67fb.js.map": "/greennature1/static/js/main.de1a67fb.js.map",
+    "453.3ea33e5f.chunk.js.map": "/greennature1/static/js/453.3ea33e5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73d22b4c.css",
+    "static/js/main.de1a67fb.js"
+  ]
+}
