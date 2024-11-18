@@ -9,7 +9,7 @@ import { Container, Row } from 'react-bootstrap';
 function ServicesEx() {
   return (
     <div>
-    <h1>Services</h1>
+    <h1><span className="firstletter1">S</span>ervices</h1>
         <Container className="d-flex">
             <Row>
               <Card className="col-12 card ms-3 my-2" style={{width:"16rem"}}>

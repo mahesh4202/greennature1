@@ -56,8 +56,7 @@
 .button77 {
   padding: 17px 40px;
   border-radius: 50px;
-  cursor: pointer;
-  text-decoration: none;
+  cursor: crosshair;
   border: 0;
   background-color: white;
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
@@ -118,15 +117,4 @@
  
  .btn35:hover {
   color: #111;
- }
- 
- .decorate93{
-  text-decoration: none;
-  color: black;
- }
-
- .firstletter1{
-  color: #05a039;
-  font-size: 48px;
-  border-bottom: 2px solid #05a039;
  }
