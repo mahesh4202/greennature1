@@ -1,6 +1,4 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -10,6 +8,7 @@ import "./HeaderEx.css"
 import HeaderSearch from './HeaderSearch';
 import LoginEx from './LoginEx';
 import SignUpEx from './SignUpEx';
+import { Link } from 'react-router-dom';
 
 function HeaderMain() {
   return (
@@ -23,35 +22,33 @@ function HeaderMain() {
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
             <NavDropdown style={{ fontSize: "16px" , fontWeight: "700" }} title="Trees" id="navbarScrollingDropdown">
-              <NavDropdown.Item to="#">Shop by Type</NavDropdown.Item>
+              <Link className='links' to="/ShopbytypeMain">Shop by Type</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">For Wellness</NavDropdown.Item>
+              <Link className='links' to="#">For Wellness</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">Decor Type</NavDropdown.Item>
+              <Link className='links' to="#">Decor Type</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">By Location</NavDropdown.Item>
+              <Link className='links' to="#">By Location</Link>
             </NavDropdown>
             <NavDropdown style={{ fontSize: "16px" , fontWeight: "700" }} title="Plant Care" id="navbarScrollingDropdown">
-              <NavDropdown.Item to="#">Plant Protection</NavDropdown.Item>
+              <Link className='links' to="#">Plant Protection</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">Plant Growth</NavDropdown.Item>
+              <Link className='links' to="#">Plant Growth</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">Symptoms by Insects/Pests</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item to="#">By Disease</NavDropdown.Item>
+              <Link className='links' to="#">By Disease</Link>
             </NavDropdown>
             <NavDropdown style={{ fontSize: "16px" , fontWeight: "700" }} title="Tools & Accessories" id="navbarScrollingDropdown">
-              <NavDropdown.Item to="#">Pruning & Cutting</NavDropdown.Item>
+              <Link className='links' to="#">Pruning & Cutting</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">Hand</NavDropdown.Item>
+              <Link className='links' to="#">Hand</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">Digging</NavDropdown.Item>
+              <Link className='links' to="#">Digging</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">Watering</NavDropdown.Item>
+              <Link className='links' to="#">Watering</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">Spray</NavDropdown.Item>
+              <Link className='links' to="#">Spray</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item to="#">Garden Decor</NavDropdown.Item>
+              <Link className='links' to="#">Garden Decor</Link>
             </NavDropdown>
                 <div>
                 <LoginEx />

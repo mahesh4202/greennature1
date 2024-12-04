@@ -18,8 +18,7 @@
     box-shadow: 1px 1px 5px 1px #95ebb1;
 }
 .servimg{
-    padding: 20px 10px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .sign{
     font-size: 10px;
@@ -29,4 +28,12 @@
 }
 .feat1{
     font-weight: 800;
+}
+.links{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 500;
 }

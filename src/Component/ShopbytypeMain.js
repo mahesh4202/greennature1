@@ -3,16 +3,11 @@ import {
     Container,
     ProgressBar,
     ScrollContent,
-} from "./Styles";
-import CarouselEx3 from "./Component/CarouselEx";
-import CategoriesEx from "./CategoriesEx";
-import FeaturedEx from "./Component/FeaturedEx";
-import ServicesEx from "./ServicesEx";
-import Footer from "./Footer";
-import DownloadApp from "./DownloadApp";
-import HeaderMain from "./HeaderMain";
-import Chooseus from "./Chooseus";
-const HomeMain = () => {
+} from "../Styles";
+import HeaderMain from "../HeaderMain";
+import Shopbytype from "../Component/Shopbytype";
+import Footer from "../Footer";
+const ShopbytypeMain = () => {
     const [scroll, setScroll] = useState(0);
  
     const onScroll = () => {
@@ -35,16 +30,11 @@ const HomeMain = () => {
             </Container>
             <ScrollContent>
                 <HeaderMain />
-                <CarouselEx3 />
-                <CategoriesEx />
-                <FeaturedEx />
-                <ServicesEx />
-                <Chooseus />
-                <DownloadApp />
+                <Shopbytype />
                 <Footer />
             </ScrollContent>
         </Fragment>
     );
 };
  
-export default HomeMain;
+export default ShopbytypeMain;

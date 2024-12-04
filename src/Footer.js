@@ -34,16 +34,16 @@ export default function Footer() {
                                 <h3>Useful Links</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Home</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>about</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>services</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>portfolio</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Contact</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>About us</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Our Services</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Expert Team</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Contact us</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Latest News</a></li>
                             </ul>
                         </div>
                     </div>
@@ -76,11 +76,11 @@ export default function Footer() {
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Policy</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Home</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Terms</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Privacy</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Policy</a></li>
+                                <li><a href="#" style={{ textDecoration: "none" }}>Contact</a></li>
                             </ul>
                         </div>
                     </div>

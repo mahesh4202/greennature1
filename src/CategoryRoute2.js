@@ -10,6 +10,7 @@ import CategoryRouteSearch from './CategoryRouteSearch';
 import CategoryRouteOffer1 from './CategoryRouteOffer1.svg'
 import CategoryRouteOffer2 from './CategoryRouteOffer2.svg'
 import CategoryRouteOffer3 from './CategoryRouteOffer3.svg'
+import { Link } from 'react-router-dom'
 
 const CategoryRoute2 = () => {
   return (
@@ -101,10 +102,12 @@ const CategoryRoute2 = () => {
                 </div>
                 <div>
                     <div>
-                        <button class="button94 review">Add to Cart<TiShoppingCart style={{ fontSize: "20px" }} /></button>
+                        <button class="button94 review">Add to Cart<TiShoppingCart style={{ fontSize: "20px" , marginLeft: "5px" , marginBottom: "3px" }} /></button>
                     </div>
                     <div>
-                        <button class="button94 review">Buy now<FaRupeeSign style={{ fontSize: "20px" }} /></button>
+                        <a>
+                            <Link to='/CateSuccess'style={{ textDecoration: "none" , textAlign: "center" }} className='button94 review'>Buy now<FaRupeeSign style={{ fontSize: "20px" , marginLeft: "5px" , marginBottom: "3px" }} /></Link>
+                        </a>
                     </div>
                 </div>
             </div>

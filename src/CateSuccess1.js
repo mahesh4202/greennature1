@@ -4,15 +4,10 @@ import {
     ProgressBar,
     ScrollContent,
 } from "./Styles";
-import CarouselEx3 from "./Component/CarouselEx";
-import CategoriesEx from "./CategoriesEx";
-import FeaturedEx from "./Component/FeaturedEx";
-import ServicesEx from "./ServicesEx";
-import Footer from "./Footer";
-import DownloadApp from "./DownloadApp";
 import HeaderMain from "./HeaderMain";
-import Chooseus from "./Chooseus";
-const HomeMain = () => {
+import Success1 from "./Success1";
+import Footer from "./Footer";
+const CateSuccess1 = () => {
     const [scroll, setScroll] = useState(0);
  
     const onScroll = () => {
@@ -35,16 +30,11 @@ const HomeMain = () => {
             </Container>
             <ScrollContent>
                 <HeaderMain />
-                <CarouselEx3 />
-                <CategoriesEx />
-                <FeaturedEx />
-                <ServicesEx />
-                <Chooseus />
-                <DownloadApp />
+                <Success1 />
                 <Footer />
             </ScrollContent>
         </Fragment>
     );
 };
  
-export default HomeMain;
+export default CateSuccess1;

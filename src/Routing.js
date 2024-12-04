@@ -5,6 +5,8 @@ import Category1 from './Category1';
 import Category2 from './Category2';
 import Category3 from './Category3';
 import Category4 from './Category4';
+import CateSuccess from './CateSuccess1';
+import ShopbytypeMain from '../src/Component/ShopbytypeMain'
 
 const Routing = () => {
   return (
@@ -14,6 +16,8 @@ const Routing = () => {
         <Route path= "/Category2" exact Component={Category2} />
         <Route path= "/Category3" exact Component={Category3} />
         <Route path= "/Category4" exact Component={Category4} />
+        <Route path= "/CateSuccess" exact Component={CateSuccess} />
+        <Route path= "/ShopbytypeMain" exact Component={ShopbytypeMain} />
     </Routes>
   )
 }
