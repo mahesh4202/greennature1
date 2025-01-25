@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/greennature1/static/css/main.a2a4aafa.css",
-    "main.js": "/greennature1/static/js/main.10825a66.js",
+    "main.css": "/greennature1/static/css/main.937ef537.css",
+    "main.js": "/greennature1/static/js/main.ae139e60.js",
     "static/js/453.bce1faa9.chunk.js": "/greennature1/static/js/453.bce1faa9.chunk.js",
     "static/media/Carousell3.jpg": "/greennature1/static/media/Carousell3.f15c613228a446c0ded7.jpg",
     "static/media/Carousell2.jpg": "/greennature1/static/media/Carousell2.5ca49f9880f5fcb6b332.jpg",
@@ -38,12 +38,12 @@
     "static/media/logo.svg": "/greennature1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/CategoryRouteOffer2.svg": "/greennature1/static/media/CategoryRouteOffer2.65d2e65d3df0c925be86409760770936.svg",
     "index.html": "/greennature1/index.html",
-    "main.a2a4aafa.css.map": "/greennature1/static/css/main.a2a4aafa.css.map",
-    "main.10825a66.js.map": "/greennature1/static/js/main.10825a66.js.map",
+    "main.937ef537.css.map": "/greennature1/static/css/main.937ef537.css.map",
+    "main.ae139e60.js.map": "/greennature1/static/js/main.ae139e60.js.map",
     "453.bce1faa9.chunk.js.map": "/greennature1/static/js/453.bce1faa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2a4aafa.css",
-    "static/js/main.10825a66.js"
+    "static/css/main.937ef537.css",
+    "static/js/main.ae139e60.js"
   ]
 }
